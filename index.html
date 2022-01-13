@@ -3,7 +3,45 @@
 <html lang="en">
  <head>
    <title>My heading</title>
- </head>
+    </head>
+    <style>
+		p.dotted {border-style: dotted;}
+		p.dashed {border-style: dashed;}
+		p.solid {border-style: solid;}
+		p.double {border-style: double;}
+		p.groove {border-style: groove;}
+		p.ridge {border-style: ridge;}
+		p.inset {border-style: inset;}
+		p.outset {border-style: outset;}
+		p.none {border-style: none;}
+		p.hidden {border-style: hidden;}
+		p.mix {border-style: dotted dashed solid double;}
+	body {
+	  background-color: rgba(235, 197, 218, 0.158);
+	}
+	
+	h1,h2,h3 {
+	  color: rgb(226, 212, 17);
+	  font-size: 25px;
+	  font-weight: bold;
+	  text-decoration: underline;
+	  
+	}
+	
+	p {
+	  color: black;
+	  font-size: 18px;
+	  font-style: italic;
+	}
+
+
+	a {
+		color: blue;
+		font-size: 18px;
+	}
+
+	
+	</style>
   <body>
 
 	<header>
@@ -24,12 +62,12 @@
 	 <main>
 	    <h1><a href="index.html"><img src="images/home.jpg" alt="Panorama" width="100" height="100"></a></h1>
 		<h1>Programavimo apibrėžimas</h1>
-		<p>Programavimas yra programavimo veiksmas ir poveikis . //////////Šis veiksmažodis turi keletą naudojimo būdų: jis nurodo suprojektuoti ir nurodyti veiksmus, kurie turi būti vykdomi įgyvendinant projektą; iki pranešimo apie dalis, kurios sudaro veiksmą ar pasirodymą; mašinų paruošimui, kad jie tam tikru momentu atliktų tam tikrą užduotį; programų, skirtų problemoms spręsti naudojant kompiuterius, kūrimui; ir reikalingų duomenų paruošimas, kad būtų galima išspręsti problemą.</p>
+		<p>Programavimas yra programavimo veiksmas ir poveikis . Šis veiksmažodis turi keletą naudojimo būdų: jis nurodo suprojektuoti ir nurodyti veiksmus, kurie turi būti vykdomi įgyvendinant projektą; iki pranešimo apie dalis, kurios sudaro veiksmą ar pasirodymą; mašinų paruošimui, kad jie tam tikru momentu atliktų tam tikrą užduotį; programų, skirtų problemoms spręsti naudojant kompiuterius, kūrimui; ir reikalingų duomenų paruošimas, kad būtų galima išspręsti problemą.</p>
 		 <h1>Programavimo kalbos</h1>
-			<p>Kiekviena programa rašoma viena ar kita programavimo kalba, kuri vėliau verčiama mašininiu kodu, suprantamu kompiuteriui. Nors įmanoma tiesiogiai programuoti mašininiu kodu, aukšto lygio programavimo kalbos žymiai supaprastina kūrimo procesą.
+			<p class="solid">Kiekviena programa rašoma viena ar kita programavimo kalba, kuri vėliau verčiama mašininiu kodu, suprantamu kompiuteriui. Nors įmanoma tiesiogiai programuoti mašininiu kodu, aukšto lygio programavimo kalbos žymiai supaprastina kūrimo procesą.
             Programavimo kalbų yra daug skirtingų tipų bei skirtingų sudėtingumo lygių, todėl kiekviena kalba labiau tinka tam tikros paskirties uždaviniams spręsti.</p>
 			<h1>Programų kūrimas</h1>
-			 <p>Programų kūrimas – sudėtingas procesas ir programavimas tėra nedidelė šio proceso dalis. Pagrindinės ir dažniausiai pasitaikančios kūrimo dalys:
+			 <p class="dotted">Programų kūrimas – sudėtingas procesas ir programavimas tėra nedidelė šio proceso dalis. Pagrindinės ir dažniausiai pasitaikančios kūrimo dalys:
 				Reikalavimų surinkimas bei analizė
 				Projektavimas ir įrankių (programavimo kalbos, platformos, duomenų lapu ir pan.), tinkamiausių problemai spręsti, parinkimas.
 				Programos rašymas pasirinkta programavimo kalba.
@@ -42,7 +80,7 @@
 	</main>
 	
 	<footer>
-		<p>P.B nuosavybė &copy; 2022. Naudokitės į sveikatą.</p>
+		<p class="double">P.B nuosavybė &copy; 2022. Naudokitės į sveikatą.</p>
 	</footer>
 	
   </body>
